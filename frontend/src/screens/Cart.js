@@ -16,7 +16,7 @@ export default function Cart() {
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
     // console.log(data,localStorage.getItem("userEmail"),new Date())
-    let response = await fetch("https://gofoodmern-uwa5.onrender.com//api/orderData", {
+    let response = await fetch("https://gofoodmern-uwa5.onrender.com/api/orderData", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
