@@ -1,2 +1,2 @@
 Deployed link:
-https://gofood-frontend-96h4.onrender.com/
+https://gofoodmern-1-mav1.onrender.com/
