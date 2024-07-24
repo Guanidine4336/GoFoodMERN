@@ -42,7 +42,7 @@ mongoDB().catch((err) => {
 
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://gofoodmern-1-mav1.onrender.com',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   allowedHeaders: 'Origin, X-Requested-With, Content-Type, Accept',
   credentials: true
